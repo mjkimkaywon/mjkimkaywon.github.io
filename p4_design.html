@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DESIGN</title>
+    <style>
+        @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard-dynamic-subset.css");
+        body{
+            width: 100%;
+            margin: 0 auto;
+            font-family: 'Pretendard';
+        }
+        .clear{
+            clear: both;
+        }
+        #header{
+            background-color: #006328;
+            text-align: center;
+            color: white;
+            padding: 0px;
+            font-size: 32px;
+            font-weight: 700;
+        }
+        #maintitle{
+            background-color: #c00e00;
+            display: inline-block;
+            padding: 15px 20px;
+            border-radius: 35px;
+            color: white;
+        }
+        #navigation{
+            background-color: #007630;
+            text-align: center;
+            font-size: 18px;
+            font-weight: 600;
+            padding: 10px;
+            color: white;
+        }
+        #subtitle{
+            color: white;
+        }
+        #row{
+            display: flex;
+        }
+        #aside{
+            float: right;
+            width: 10%;
+            height: auto;
+            padding-top: 50px;
+            font-size: 14px;
+            font-weight: 600;
+            text-align: center;
+            background-color: #007630;
+            color: white;
+            line-height: 500%;
+        }
+        a:link, a:visited{
+            color: white;
+            text-decoration: none;
+        }
+        a:hover, a:active{
+            color: #c00e00;
+            text-decoration: none;
+        }
+        .submenu{
+            font-weight: 300;
+        }
+        #wrap{
+            width: 90%;
+            float: left;
+            height: auto; 
+            background-color: #f1e9d3;
+            box-sizing: border-box;
+            padding-left: 100px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            padding-right: 40px;
+            display: flex;
+        }
+        #section{
+            width: 100%;
+            float: left;
+        }
+        h1{
+            color: #c00e00;
+            font-size: 40px;
+            font-weight: 900;
+        }
+        h2{
+            color: #006328;
+            font-weight: 800;
+        }
+        p{
+            color: #007630;
+            line-height: 150%;
+        }
+        table, th, td{
+            padding: 20px;
+            border: solid #006328 1px;
+            border-collapse: collapse;
+            text-align: center; 
+        }
+        #by{
+            font-size: 13px;
+            font-weight: 200;
+        }
+        #footer{
+            height: 100%;
+            background-color: #006328;
+            padding: 30px;
+            color: #f1e9d3;
+            font-size: 10px;
+            font-weight: 100;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <a href="main.html" id="mainlink"><p id="maintitle">&nbsp;<img src="img/qkf.png" width="30px">&nbsp;&nbsp;All about MAHJONG&nbsp;&nbsp;<img src="img/qkf.png" width="30px">&nbsp;</p></a>
+    </div>
+    <div id="navigation">
+        <p id="subtitle">마작과 디자인</p>
+    </div>
+    <div class="clear"></div>
+    
+    <div id="row">
+        <div id="wrap">
+            <div id="section">
+                <h1>26mm, 15g의 조각품</h1>
+                <h2>마작패의 미학</h2>
+                <p>
+                    &nbsp;마작은 144개 가량의 패로 게임을 진행한다. 플레잉카드보다 수도 많고,
+                    테이블에 쌓거나 세워두고 진행하기 때문에 당연히 두꺼우며 무게도 있다. <br>
+                    앞면에 새겨진 한자와 문양들은 제작하는 회사와 상품 라인에 따라 특색을 갖추고 있기에 소장을 위해 마작패를 구하는 사람들도 있다. <br><br>
+                    아래에서는 마작패의 디자인을 몇가지 소개하고자 한다. <br>
+                    <span id="by">images By Cangjie6 - Own work, CC BY-SA 4.0</span>
+                </p><br><br>
+                <div>
+                    <table>
+                        <tr style="background-color: #006328; color: white;">
+                            <th>일본</th>
+                            <th>일본</th>
+                            <th>대만</th>
+                            <th>홍콩</th>
+                        </tr>
+                        <tr>
+                            <th><img src="img/yellow.jpg" width="100%"></th>
+                            <th><img src="img/purple.jpg" width="100%"></th>
+                            <th><img src="img/pink.jpg" width="100%"></th>
+                            <th><img src="img/orange.jpg" width="100%"></th>
+                        </tr>
+                        <tr style="color: #007630;">
+                            <td>한자는 관서체로 적혔다. 붉은색으로 칠해진 패는 일본 리치마작에서만 활용된다.</td>
+                            <td>관동체로 한자가 적혀있으며, 큐슈지방의 특징을 살린 백룡패가 포함되어있다.</td>
+                            <td>불규칙한 서체로 그려진 한자가 특징적이다.</td>
+                            <td>일본이나 대만 등과 비교했을때 색이 화려하다. 필기체로 적힌 한자 또한 특징.</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div id="aside">
+            <a href="main.html"><img src="img/wnd.png" width="50px"></a><br>
+            <a href="p1_history.html" class="submenu">HISTORY</a><br>
+            <a href="p2_asianculture.html" class="submenu">ASIAN CULTURE</a><br>
+            <a href="p3_howto.html" class="submenu">HOW TO</a><br>
+            <a href="p4_design.html">DESIGN</a><br>
+            <a href="p5_media.html" class="submenu">MEDIA</a><br>
+        </div>
+    </div>
+    <div class="clear"></div>
+
+    <div id="footer">
+        계원예술대학교 디지털미디어디자인과<br>
+        22261011 김민정<br>
+        웹퍼블리싱 직무수행능력평가1<br>
+        contact : mjkim036@kaywon.ac.kr
+    </div>
+    <div class="clear"></div>
+</body>
+</html>

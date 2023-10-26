@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOW TO</title>
+    <style>
+        @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard-dynamic-subset.css");
+        body{
+            width: 100%;
+            margin: 0 auto;
+            font-family: 'Pretendard';
+        }
+        .clear{
+            clear: both;
+        }
+        #header{
+            background-color: #006328;
+            text-align: center;
+            color: white;
+            padding: 0px;
+            font-size: 32px;
+            font-weight: 700;
+        }
+        #maintitle{
+            background-color: #c00e00;
+            display: inline-block;
+            padding: 15px 20px;
+            border-radius: 35px;
+            color: white;
+        }
+        #navigation{
+            background-color: #007630;
+            text-align: center;
+            font-size: 18px;
+            font-weight: 600;
+            padding: 10px;
+            color: white;
+        }
+        #subtitle{
+            color: white;
+        }
+        #row{
+            display: flex;
+        }
+        #aside{
+            float: right;
+            width: 10%;
+            height: auto;
+            padding-top: 50px;
+            font-size: 14px;
+            font-weight: 600;
+            text-align: center;
+            background-color: #007630;
+            color: white;
+            line-height: 500%;
+        }
+        a:link, a:visited{
+            color: white;
+            text-decoration: none;
+        }
+        a:hover, a:active{
+            color: #c00e00;
+            text-decoration: none;
+        }
+        .submenu{
+            font-weight: 300;
+        }
+        #wrap{
+            width: 90%;
+            float: left;
+            height: auto; 
+            background-color: #f1e9d3;
+            box-sizing: border-box;
+            padding-left: 100px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            padding-right: 40px;
+            display: flex;
+        }
+        #wrap2{
+            width: 100%;
+            float: left;
+            height: auto; 
+            background-color: #f1e9d3;
+            box-sizing: border-box;
+            display: flex;
+        }
+        #section{
+            width: 100%;
+            float: left;
+        }
+        .section2{
+            margin-right: 40px;
+        }
+        h1{
+            color: #c00e00;
+            font-size: 40px;
+            font-weight: 900;
+        }
+        h2, h3{
+            color: #006328;
+            font-weight: 800;
+        }
+        p, li{
+            color: #007630;
+            line-height: 150%;
+        }
+        .bold{
+            font-weight: 700;
+        }
+        #footer{
+            height: 100%;
+            background-color: #006328;
+            padding: 30px;
+            color: #f1e9d3;
+            font-size: 10px;
+            font-weight: 100;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <a href="main.html" id="mainlink"><p id="maintitle">&nbsp;<img src="img/qkf.png" width="30px">&nbsp;&nbsp;All about MAHJONG&nbsp;&nbsp;<img src="img/qkf.png" width="30px">&nbsp;</p></a>
+    </div>
+    <div id="navigation">
+        <p id="subtitle">마작의 규칙</p>
+    </div>
+    <div class="clear"></div>
+    
+    <div id="row">
+        <div id="wrap">
+            <div class="section">
+                <h1>'가볍게' 배워보는 마작</h1>
+                <h2>기본 준비</h2>
+                <p>
+                    마작은 규칙이 복잡하기로 악명이 자자해, 진입장벽이 높다고 느끼는 사람이 많다. <br>
+                    하지만 기본적인 규칙부터 배워나간다면 흥미를 갖고 마작의 세계를 즐길 첫 걸음을 내딛을 수 있을 것이다.
+                </p>
+                <div id="wrap2">
+                    <div class="section2">
+                        <h2>준비물</h2>
+                        <ul>
+                            <li>함께 할 친구 3명(혹은 2명)</li>
+                            <li>온라인 마작을 플레이 할 수 있는 환경 (혹은 오프라인 마장도 ok!)</li>
+                            <li>충분한 여유시간(최소 4국 진행에 약 15분 소요)</li>
+                            <li>즐기고 싶다는 마음가짐</li>
+                        </ul>
+                    </div>
+                    <div class="section2">
+                        <h2>사전정보</h2>
+                        <p>
+                            &nbsp;마작은 기본적으로 4명이서 하기 때문에 사람을 모으기 어렵다고 느낄 수도 있다. 하지만 3명이서 즐길 수 있는 규칙 또한 존재한다! <br>
+                            &nbsp;오프라인에서 실제 마작패로 진행하기 위해서는 패를 섞고 쌓는 법이나 점수계산법 또한 충분히 숙지하고 있어야 하기 때문에, 온라인 상으로 먼저 해보는 것도 나쁘지 않을 것이다.
+                        </p>
+                    </div>
+                    <div class="section2">
+                        <h2>진행방식(오프라인 기준)</h2>
+                        <ol>
+                            <li>순서 정하기</li>
+                            <li>패산 쌓기</li>
+                            <li>배패(패 나누기)</li>
+                            <li>이후 대국 진행</li>
+                        </ol>
+                        <p>
+                            온라인 상에서는 위의 세 순서가 자동으로 이루어지기 때문에, 크게 신경쓰지 않아도 된다. 오프라인에서도 전동으로 패를 섞어서 나누어주는 탁자가 있다.
+                        </p>
+                    </div>
+                </div>
+                <h1>&nbsp;</h1>
+                <h2>기본 규칙</h2>
+                <p>
+                    마작의 최대 목표는 <span class="bold">화료</span>하는 것이다. 화료란 특정한 모양을 갖추어 완성하는 것으로, <br>
+                    가지고 있는 13개에 패에 매 차례마다 뽑고 버리는 하나의 패, 혹은 다른 사람이 버린 패를 더해 14개의 패로 모양, 즉 <span class="bold">역</span>을 갖춘다면 해당 국이 종료되고 역에 해당하는 점수를 받을 수 있다. <br><br>
+                    그렇다면 대체 무슨 모양을 만들어야 하는 것일까? <span class="bold">마작패의 구성</span>은 다음과 같다.
+                </p>
+                <ul>
+                    <li>만수패, 통수패, 삭수패 (수패)</li>
+                    <li>삼원패, 자풍패 (자패)</li>
+                </ul>
+                <p>
+                    수패는 말 그대로 숫자에 해당되는 패를 뜻하며, 만, 통, 삭은 트럼프카드에 있는 하트, 스페이드와 같은 역할이다. <br><br>
+                    화료를 하기 위해서는 <span class="bold">머리</span> 하나와 <span class="bold">몸통</span> 4개를 만들어야 한다. 
+                </p>
+                <h3>머리</h3>
+                <p>
+                    완전히 같은 패 2개를 모았을 때 이것을 또이쯔라고 부르며 머리로 취급한다.
+                </p>
+                <h3>몸통</h3>
+                <p>
+                    몸통을 만드는 방식은 총 두가지가 있다.
+                </p>
+                <ol>
+                    <li>
+                        같은 패 세 장 모으기: 이것을 '커쯔'라고 부르며 하나의 몸통으로 취급한다. 완전히 같은 패여야 함에 유의!
+                    </li>
+                    <li>
+                        같은 모양의 이어지는 수를 가진 패 세 장 모으기: 이것을 '슌쯔'라고 부르며 하나의 몸통으로 취급한다. 반드시 모양이 같아야 하고, 차례로 이어지는 수여야 한다.(9,1,2는 불가)
+                    </li>
+                </ol>
+                <p>
+                    이러한 방식들로 머리 하나와 몸통 네 개를 만들면 14장의 패로 용을 완성할 수 있다!
+                </p>
+                <h1>&nbsp;</h1>
+                <h2>정말 이게 끝?</h2>
+                <p>
+                    마작을 시작하기 전에 알아야 하는 가장 기본적인 것만 꼽자면, 그렇다. 물론 <span class="bold">후로, 역, 화료의 부가 조건</span>등이 존재하지만 관심이 생긴 뒤 천천히 알아보아도 늦지 않다. <br>
+                    마작의 본질은 용이 되어 날아오르는 것이니까!
+                </p>
+            </div>
+        </div>
+        <div id="aside">
+            <a href="main.html"><img src="img/wnd.png" width="50px"></a><br>
+            <a href="p1_history.html" class="submenu">HISTORY</a><br>
+            <a href="p2_asianculture.html" class="submenu">ASIAN CULTURE</a><br>
+            <a href="p3_howto.html">HOW TO</a><br>
+            <a href="p4_design.html" class="submenu">DESIGN</a><br>
+            <a href="p5_media.html" class="submenu">MEDIA</a><br>
+        </div> 
+    </div>
+    <div class="clear"></div>
+
+    <div id="footer">
+        계원예술대학교 디지털미디어디자인과<br>
+        22261011 김민정<br>
+        웹퍼블리싱 직무수행능력평가1<br>
+        contact : mjkim036@kaywon.ac.kr
+    </div>
+    <div class="clear"></div>
+</body>
+</html>
